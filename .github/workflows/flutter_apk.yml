@@ -40,6 +40,9 @@ jobs:
     - run: flutter test
     
     # Build apk.
+    - run: flutter pub run build_runner build --delete-conflicting-outputs 
+    
+    # Build apk.
     - run: flutter build apk
     
     # Upload generated apk to the artifacts.
