@@ -5,7 +5,7 @@ const int defaultSplashDelay = 3;
 
 
 // local instance bagisto 2.0 updated
-const String baseUrl = "";
+const String baseUrl = "http://192.168.8.5:8080/";
 
 const String defaultWebsiteId = "1";
 
